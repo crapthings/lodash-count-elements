@@ -1,0 +1,12 @@
+{
+  "name": "@crapthings/lodash-count-elements",
+  "version": "0.0.1",
+  "description": "count the elements in an array and return result as key, value",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "keywords": ["array", "lodash"],
+  "author": "crapthings",
+  "license": "ISC"
+}
