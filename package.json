@@ -1,10 +1,16 @@
 {
   "name": "@crapthings/lodash-count-elements",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "count the elements in an array and return result as key, value",
   "main": "index.js",
   "dependencies": {
     "lodash": "^4.17.11"
+  },
+  "homepage": "https://github.com/crapthings/lodash-count-elements",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:crapthings/lodash-count-elements.git",
+    "web": "https://github.com/crapthings/lodash-count-elements"
   },
   "keywords": ["array", "lodash"],
   "author": "crapthings",
