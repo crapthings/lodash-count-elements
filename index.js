@@ -8,6 +8,10 @@ module.exports = function(arr = [], opts = {}) {
     .orderBy(['value'], [opts.order])
     .value()
 
+  if (_.isFunction(opts.filter)) {
+    result = _.filter(result, opts.filter)
+  }
+
   if (_.isFunction(opts.reject)) {
     result = _.reject(result, opts.reject)
   }
